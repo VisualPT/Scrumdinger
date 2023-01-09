@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		715B80C4296CBE0A0050177C /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B80C3296CBE0A0050177C /* ScrumsView.swift */; };
 		71689B39296BB75B007002B6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71689B38296BB75B007002B6 /* Theme.swift */; };
 		71689B3B296BB91F007002B6 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71689B3A296BB91F007002B6 /* DailyScrum.swift */; };
 		71689B3F296BC612007002B6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71689B3E296BC612007002B6 /* CardView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		715B80C3296CBE0A0050177C /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		71689B38296BB75B007002B6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		71689B3A296BB91F007002B6 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		71689B3E296BC612007002B6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				719888832967D761005DBE2E /* Preview Content */,
 				71689B3E296BC612007002B6 /* CardView.swift */,
 				71689B40296BC9D5007002B6 /* TrailingIconLabelStyle.swift */,
+				715B80C3296CBE0A0050177C /* ScrumsView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				71689B3B296BB91F007002B6 /* DailyScrum.swift in Sources */,
 				71689B41296BC9D6007002B6 /* TrailingIconLabelStyle.swift in Sources */,
 				71689B39296BB75B007002B6 /* Theme.swift in Sources */,
+				715B80C4296CBE0A0050177C /* ScrumsView.swift in Sources */,
 				719888802967D75E005DBE2E /* MeetingView.swift in Sources */,
 				7198887E2967D75E005DBE2E /* ScrumdingerApp.swift in Sources */,
 				71689B3F296BC612007002B6 /* CardView.swift in Sources */,
