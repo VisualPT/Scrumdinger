@@ -1,13 +1,10 @@
-//
-//  DailyScrum.swift
-//  Scrumdinger
-//
-//  Created by Charles Richardson on 4/9/24.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import Foundation
 
-struct DailyScrum: Identifiable, Codable {
+struct DailyScrum: Identifiable {
     let id: UUID
     var title: String
     var attendees: [Attendee]
@@ -21,6 +18,8 @@ struct DailyScrum: Identifiable, Codable {
         }
     }
     var theme: Theme
+    var history: [History] = []
+    
     init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
         self.id = id
         self.title = title
@@ -31,7 +30,7 @@ struct DailyScrum: Identifiable, Codable {
 }
 
 extension DailyScrum {
-    struct Attendee: Identifiable, Codable {
+    struct Attendee: Identifiable {
         let id: UUID
         var name: String
         
@@ -44,7 +43,6 @@ extension DailyScrum {
     static var emptyScrum: DailyScrum {
         DailyScrum(title: "", attendees: [], lengthInMinutes: 5, theme: .sky)
     }
-    
 }
 
 extension DailyScrum {
